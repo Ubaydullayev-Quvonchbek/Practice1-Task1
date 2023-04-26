@@ -54,6 +54,11 @@ button:hover {
 }
 
 @media (max-width: 575px) {
+    video{
+        width: auto;
+        height: 100%;
+    }
+
     h1 {
         font-size: 50px;
     }
