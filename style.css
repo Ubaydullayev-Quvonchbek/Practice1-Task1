@@ -13,6 +13,7 @@ video {
     position: absolute;
     bottom: 0;
     right: 0;
+    height: 100vh;
     z-index: -1;
 }
 
@@ -50,4 +51,15 @@ button:hover {
     background-color: #000;
     color: #fff;
     transition: .5s;
+}
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    button {
+        font-size: 25px;
+        width: 100%;
+    }
 }
